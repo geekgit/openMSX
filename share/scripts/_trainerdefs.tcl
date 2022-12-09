@@ -4602,6 +4602,10 @@ create_trainer "Metal Gear" {time 1} {
 	"Weapon: Silencer In Inventory" {dpoke 0xc51c 8}
 }
 
+create_trainer "Metal Gear - geekgit" {time 1} {
+	"Remote controlled missle: +4" {dpoke 0xc518 7;poke 0xc519 4}
+}
+
 create_trainer "Metal Gear 2 - Solid Snake" {time 2} {
 	"Do Not Sink Into The Swamp" {dpoke 0xcb29 32}
 	"Get C4 Explosives" {dpoke 0xd618 1;poke 0xd619 153;dpoke 0xd61a 9}
