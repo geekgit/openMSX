@@ -4603,7 +4603,13 @@ create_trainer "Metal Gear" {time 1} {
 }
 
 create_trainer "Metal Gear - geekgit" {time 1} {
-	"Remote controlled missle: +4" {dpoke 0xc518 7;poke 0xc519 4}
+	"Remote controlled missle: 4 => slot 1" {dpoke 0xc500 7;poke 0xc501 4}
+	"Remote controlled missle: 4 => slot 2" {dpoke 0xc504 7;poke 0xc505 4}
+	"Remote controlled missle: 4 => slot 3" {dpoke 0xc508 7;poke 0xc509 4}
+	"Remote controlled missle: 4 => slot 4" {dpoke 0xc50c 7;poke 0xc50d 4}
+	"Remote controlled missle: 4 => slot 5" {dpoke 0xc510 7;poke 0xc511 4}
+	"Remote controlled missle: 4 => slot 6" {dpoke 0xc514 7;poke 0xc515 4}
+	"Remote controlled missle: 4 => slot 7" {dpoke 0xc518 7;poke 0xc519 4}
 }
 
 create_trainer "Metal Gear 2 - Solid Snake" {time 2} {
